@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>inFocus Anket Sayfasi</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="focus_style.css">
+	</head>
+	<body>
+		<header>
+			<a href="">
+				<img class="header-img" src="http://kathrynmcelroy.com/images/logo-09.png">
+			</a>
+			<ul class="nav">
+				<li><a href="">About</a></li>
+				<li><a href="">Products</a></li>
+				<li><a href="" class="current">Contact</a></li>
+			</ul>
+		</header>
+		<form id="contact-form" name=ContactForm>
+			<h2>Drop us a line!</h2>
+			<p class="intro">
+				What do you like about our products? What products do you want in the future? Contact us and let us know!
+			</p>
+			<p class="inputfield"><label for="subject">Subject</label></p>
+			<input type="text" id="name" name="name" placeholder="What's this about?" style="color: #fff;" required tabindex="1"/>
+			<p class="inputfield"><label for="message">Your Message</label></p>
+			<textarea name="message" id="message" tabindex="2"></textarea> 
+			<p class="inputfield"><label for="name">Name</label></p>
+			<input type="text" id="name" name="name" placeholder="First and Last Name" style="color: #fff;" required tabindex="3"/>
+			<p class="inputfield"><label for="email">Email</label></p>
+			<input type="email" id="email" name="email" placeholder="youremail@domain.com" required tabindex="4" />
+			<input type="submit" name="submit" id="submit" tabindex="5" value="Submit" />
+		</form>
+		<footer>
+			<p class="footer">Copyrighted 2022. All rights reserved inFocus.</p>
+		</footer>
+	</body>
+</html>
